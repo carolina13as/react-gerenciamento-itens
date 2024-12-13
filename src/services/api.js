@@ -2,6 +2,7 @@
 
 const API_URL = 'http://localhost:3000'; // URL da API
 
+
 export async function login(username, password) {
     const response = await fetch(`${API_URL}/users/login`, {
         method: 'POST',
